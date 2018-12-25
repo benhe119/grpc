@@ -1,0 +1,9 @@
+Based-on: latest master of grpc/gprc
+Merged-in: 
+- generate JS file even if no services are defined
+- fixes which prevent rules usage with newest bazel
+- use @com_google_protobuf from @graknlabs until 3.7.0 is released
+Reset-when: 
+- grpc starts using plugin from grpc/grpc-node
+- grpc/grpc#17590 is merged to master
+- grpc/grpc starts using @com_google_protobuf#v3.7.0 
