@@ -1,0 +1,6 @@
+Based-on: grpc/grpc#v1.23.0
+Merged-in: 
+- generate JS file even if no services are defined
+Reset-when: 
+- grpc starts using plugin from grpc/grpc-node
+
